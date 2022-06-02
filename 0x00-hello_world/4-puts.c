@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - main block
- * Retur: 0
+ * Return: 0
  */
 int main(void)
 
