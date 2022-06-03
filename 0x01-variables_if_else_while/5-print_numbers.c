@@ -1,11 +1,9 @@
 #include <stdio.h>
-
 /**
  * main - Entry point
  * Description: random number in n +ve/-ve
- * Return: 0 on Success
+ * Return: Always 0 (Success)
  */
-
 int main(void)
 {
 int n;
