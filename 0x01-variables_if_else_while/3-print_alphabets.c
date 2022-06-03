@@ -15,6 +15,6 @@ for (firstCletter = 65, n = 1; n < 27; firstCletter++, n++)
 {
 putchar(firstCletter);
 }
-puutchar(10);
+putchar(10);
 return (0);
 }
