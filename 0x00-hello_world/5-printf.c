@@ -1,12 +1,13 @@
 #include <stdio.h>
 /**
- * main - main entry
- * Return: 0
+ * main - print string
+ *
+ * Return: Always 0
  */
 int main(void)
 {
 printf("with proper grammar, but the outcome is a place of art,
-\n
+\n"
 ");
 	return (0);
 }
