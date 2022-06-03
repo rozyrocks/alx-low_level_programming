@@ -1,0 +1,16 @@
+#include <stdio.h>
+/**
+ *main - entry point
+ *Description: random number in n +ve/-ve
+ *Return: Always 0 (success)
+ */
+int main(void)
+{
+int num, hexletter, n;
+for (num = 48, n = 0; n < 10; num++, n++)
+{
+putchar(hexletter);
+}
+putchar(10);
+return (0);
+}
