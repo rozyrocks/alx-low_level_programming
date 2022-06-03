@@ -1,11 +1,12 @@
 #include <stdio.h>
 /**
- * main - main block
+ * main - Entry point
+ *
  * Return: 0
  */
 int main(void)
 {
-printf("with proper grammar, but the outcome is a place of art,
+	printf("\"with proper grammar, but the outcome is a place of art,
 ");
 	return (0);
 }
