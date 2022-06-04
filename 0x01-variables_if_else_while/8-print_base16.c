@@ -1,16 +1,21 @@
 #include <stdio.h>
+
 /**
- *main - entry point
- *Description: random number in n +ve/-ve
- *Return: Always 0 (success)
+ *main - Entry point
+ *Description: Prints all the numbers of base 16 in lowercase.
+ *Return: Always 0.
  */
 int main(void)
 {
-int num, hexletter, n;
-for (num = 48, n = 0; n < 10; num++, n++)
-{
-putchar(hexletter);
-}
-putchar(10);
-return (0);
+	int num;
+	char letter;
+
+	for (num = 0; num < 10; num++)
+		putchar((num % 10) + '0');
+	for (letter = 'a'; letter <= 'f'; letter++)
+		putchar(letter);
+
+	putchar('\n');
+
+	return (0);
 }
