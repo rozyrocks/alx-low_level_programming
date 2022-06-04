@@ -1,9 +1,10 @@
 #include <stdio.h>
+
 /**
  * main - prints all possible combinations of two two-digit numbers,
  *        ranging from 0-99, separated by a comma followed by a space.
  *
- *Return: Always 0.
+ * Return: Always 0.
  */
 int main(void)
 {
@@ -20,7 +21,7 @@ int main(void)
 			putchar((num2 % 10) + '0');
 
 			if (num1 == 98 && num2 == 99)
-				contiune;
+				continue;
 
 			putchar(',');
 			putchar(' ');
