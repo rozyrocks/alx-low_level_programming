@@ -1,11 +1,14 @@
 #include "main.h"
+#inlude <stdbool.h>
 /**
- * ma - prints the alphabet in lowercase, followed by a new line.
+ * main- prints the alphabet in lowercase, followed by a new line.
  */
-int main(void)
+void print_alphabet(void)
 {
 	char letter;
+
 	for (letter = 'a'; letter <= 'z'; letter++)
-		_putchar(letter);
+	_putchar(letter);
+
 	_putchar('\n');
 }
