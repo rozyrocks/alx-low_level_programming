@@ -14,9 +14,9 @@ void print_alphabet(void)
 		_putchar(i);
 		if (i == 122)
 		{
-			a = false
+			a = false;
 		}
-		i++
+		i++;
 	}
 	_putchar('\n');
 }
