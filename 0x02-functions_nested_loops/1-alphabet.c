@@ -1,5 +1,5 @@
 #include "main.h"
-#inlude <stdbool.h>
+#include <stdbool.h>
 /**
  * main- prints the alphabet in lowercase, followed by a new line.
  */
