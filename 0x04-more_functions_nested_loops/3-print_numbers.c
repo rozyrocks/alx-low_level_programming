@@ -5,6 +5,7 @@
  *
  * Return: the numbers 0 - 9
  */
+
 void print_numbers(void)
 {
 	char n = 0;
