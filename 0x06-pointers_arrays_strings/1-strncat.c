@@ -7,6 +7,7 @@
  * @n: maximum number of characters to be appended
  * Return: concatenated string
  */
+
 char *_strncat(char *dest, char *src, int n)
 {
 	int i = 0, j = 0;
@@ -17,7 +18,7 @@ char *_strncat(char *dest, char *src, int n)
 	}
 	while (*(src + j) != '\0' && j < n)
 	{
-		*(dest + i) src[j];
+		*(dest + i) = src[j];
 		i++;
 		j++;
 	}
