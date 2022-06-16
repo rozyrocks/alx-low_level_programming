@@ -1,9 +1,11 @@
 #include "main.h"
+
 /**
  * separator - checks if character is a separator
  * @c: character to be checked
- * Return: if separator returns 1. otherwise returns 0;
+ * Return: if separator return 1. otherwise return 0;
  */
+
 int separator(char c)
 {
 	/*Declaring condition switch*/
@@ -26,4 +28,31 @@ int separator(char c)
 		default:
 			return (0);
 	}
+}
+
+/**
+ * cap_string - capitalizes all words of a string
+ * @s: string to uppercase
+ * Return: returns modified string
+ */
+char *cap_string(char *s)
+{
+	int count, upper;
+
+	upper = -32; /*value constant 32*/
+
+	count = 0;
+	/*Start WHILE*/
+	while (s[count] != '\0')
+	{
+		/*letters lowercase*/
+		if (s[count] >= 'a' && s[count] <= 'z')
+		{
+			/*Convert uppercase*/
+			if (s[count == *s || separator(s[count - 1]))
+				s[count] += upper;
+		}
+		count++; /*Add count*/
+	}
+	return (s);
 }
