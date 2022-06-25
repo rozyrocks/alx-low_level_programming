@@ -1,1 +1,1 @@
-Learning to create static libraries in C.
+Readme for static libraries
