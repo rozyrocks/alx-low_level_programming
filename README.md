@@ -1,1 +1,1 @@
-project done during Full stack software Engineering at ALX SE on Preprocessor.
+Using the I/O system calls.
